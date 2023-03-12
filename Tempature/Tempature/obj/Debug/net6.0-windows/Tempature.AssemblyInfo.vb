@@ -13,12 +13,12 @@ Option Explicit On
 
 Imports System
 Imports System.Reflection
-<Assembly: System.Reflection.AssemblyCompanyAttribute("If_Else"),  _
+<Assembly: System.Reflection.AssemblyCompanyAttribute("Tempature"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
  Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0"),  _
- Assembly: System.Reflection.AssemblyProductAttribute("If_Else"),  _
- Assembly: System.Reflection.AssemblyTitleAttribute("If_Else"),  _
+ Assembly: System.Reflection.AssemblyProductAttribute("Tempature"),  _
+ Assembly: System.Reflection.AssemblyTitleAttribute("Tempature"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _
  Assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0"),  _
  Assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")> 

@@ -1,9 +1,9 @@
 ﻿Public Class Form1
-    Private Sub btnKnown_Click(sender As Object, e As EventArgs) Handles btnKnown.Click
-        Dim Tempature, Known As Integer
+    Private Sub btnKnown_Click(sender As Object, e As EventArgs) Handles btn_Known.Click, btn_Known.Click
+        Dim Tempature, Known As Decimal
 
         '--Input
-        Tempature = txtInput.Text()
+        Tempature = txt_Input.Text()
 
         '--Process/Ouput
         If Tempature < 20 Then
@@ -17,18 +17,18 @@
         End If
 
         '--Output
-        txtOutput = Known & " - " & Tempature
+        txt_Output = Known & " - " & Tempature
 
     End Sub
 
-    Private Sub btnClear_Click(sender As Object, e As EventArgs) Handles btnClear.Click
+    Private Sub btnClear_Click(sender As Object, e As EventArgs) Handles btn_Clear.Click, btn_Clear.Click
 
-        txtInput.Clear()
-        txtOutput.Clear()
+        txt_Input.Clear()
+        txt_Output.Clear()
 
     End Sub
 
-    Private Sub btnClose_Click(sender As Object, e As EventArgs) Handles btnClose.Click
+    Private Sub btnClose_Click(sender As Object, e As EventArgs) Handles btn_Close.Click, btn_Close.Click
 
         Close()
 

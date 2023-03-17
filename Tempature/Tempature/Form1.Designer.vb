@@ -22,74 +22,77 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        btnClear = New Button()
-        btnKnown = New Button()
-        btnClose = New Button()
-        txtInput = New TextBox()
-        txtOutput = New TextBox()
+        btn_Clear = New Button()
+        btn_Known = New Button()
+        btn_Close = New Button()
+        txt_Input = New TextBox()
+        txt_Output = New TextBox()
         SuspendLayout()
         ' 
-        ' btnClear
+        ' btn_Clear
         ' 
-        btnClear.Location = New Point(145, 208)
-        btnClear.Name = "btnClear"
-        btnClear.Size = New Size(150, 46)
-        btnClear.TabIndex = 0
-        btnClear.Text = "Clear"
-        btnClear.UseVisualStyleBackColor = True
+        btn_Clear.Location = New Point(145, 275)
+        btn_Clear.Name = "btn_Clear"
+        btn_Clear.Size = New Size(150, 46)
+        btn_Clear.TabIndex = 0
+        btn_Clear.Text = "Clear"
+        btn_Clear.UseVisualStyleBackColor = True
         ' 
-        ' btnKnown
+        ' btn_Known
         ' 
-        btnKnown.Location = New Point(328, 208)
-        btnKnown.Name = "btnKnown"
-        btnKnown.Size = New Size(150, 46)
-        btnKnown.TabIndex = 1
-        btnKnown.Text = "Known"
-        btnKnown.UseVisualStyleBackColor = True
+        btn_Known.Location = New Point(301, 275)
+        btn_Known.Name = "btn_Known"
+        btn_Known.Size = New Size(202, 46)
+        btn_Known.TabIndex = 1
+        btn_Known.Text = "Known"
+        btn_Known.UseVisualStyleBackColor = True
         ' 
-        ' btnClose
+        ' btn_Close
         ' 
-        btnClose.Location = New Point(509, 208)
-        btnClose.Name = "btnClose"
-        btnClose.Size = New Size(150, 46)
-        btnClose.TabIndex = 2
-        btnClose.Text = "Close"
-        btnClose.UseVisualStyleBackColor = True
+        btn_Close.Location = New Point(509, 275)
+        btn_Close.Name = "btn_Close"
+        btn_Close.Size = New Size(150, 46)
+        btn_Close.TabIndex = 2
+        btn_Close.Text = "Close"
+        btn_Close.UseVisualStyleBackColor = True
         ' 
-        ' txtInput
+        ' txt_Input
         ' 
-        txtInput.Location = New Point(145, 130)
-        txtInput.Name = "txtInput"
-        txtInput.Size = New Size(514, 39)
-        txtInput.TabIndex = 3
+        txt_Input.Location = New Point(145, 199)
+        txt_Input.Name = "txt_Input"
+        txt_Input.Size = New Size(514, 39)
+        txt_Input.TabIndex = 3
         ' 
-        ' txtOutput
+        ' txt_Output
         ' 
-        txtOutput.Location = New Point(145, 289)
-        txtOutput.Name = "txtOutput"
-        txtOutput.ReadOnly = True
-        txtOutput.Size = New Size(514, 39)
-        txtOutput.TabIndex = 4
+        txt_Output.Location = New Point(145, 410)
+        txt_Output.Name = "txt_Output"
+        txt_Output.ReadOnly = True
+        txt_Output.Size = New Size(514, 39)
+        txt_Output.TabIndex = 4
         ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(13F, 32F)
         AutoScaleMode = AutoScaleMode.Font
+        BackColor = Color.White
+        BackgroundImage = My.Resources.Resources.Unknown
+        BackgroundImageLayout = ImageLayout.Zoom
         ClientSize = New Size(800, 450)
-        Controls.Add(txtOutput)
-        Controls.Add(txtInput)
-        Controls.Add(btnClose)
-        Controls.Add(btnKnown)
-        Controls.Add(btnClear)
+        Controls.Add(txt_Output)
+        Controls.Add(txt_Input)
+        Controls.Add(btn_Close)
+        Controls.Add(btn_Known)
+        Controls.Add(btn_Clear)
         Name = "Form1"
         Text = "Form1"
         ResumeLayout(False)
         PerformLayout()
     End Sub
 
-    Friend WithEvents btnClear As Button
-    Friend WithEvents btnKnown As Button
-    Friend WithEvents btnClose As Button
-    Friend WithEvents txtInput As TextBox
-    Friend WithEvents txtOutput As TextBox
+    Friend WithEvents btn_Clear As Button
+    Friend WithEvents btn_Known As Button
+    Friend WithEvents btn_Close As Button
+    Friend WithEvents txt_Input As TextBox
+    Friend WithEvents txt_Output As TextBox
 End Class

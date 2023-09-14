@@ -1,7 +1,0 @@
-V:\000_Active\Skills_Task_1\Tempature\Tempature\obj\Debug\net6.0-windows\Tempature.vbproj.AssemblyReference.cache
-V:\000_Active\Skills_Task_1\Tempature\Tempature\obj\Debug\net6.0-windows\Tempature.Form1.resources
-V:\000_Active\Skills_Task_1\Tempature\Tempature\obj\Debug\net6.0-windows\Tempature.vbproj.GenerateResource.cache
-V:\000_Active\Skills_Task_1\Tempature\Tempature\obj\Debug\net6.0-windows\Tempature.GeneratedMSBuildEditorConfig.editorconfig
-V:\000_Active\Skills_Task_1\Tempature\Tempature\obj\Debug\net6.0-windows\Tempature.AssemblyInfoInputs.cache
-V:\000_Active\Skills_Task_1\Tempature\Tempature\obj\Debug\net6.0-windows\Tempature.AssemblyInfo.vb
-V:\000_Active\Skills_Task_1\Tempature\Tempature\obj\Debug\net6.0-windows\Tempature.vbproj.CoreCompileInputs.cache
